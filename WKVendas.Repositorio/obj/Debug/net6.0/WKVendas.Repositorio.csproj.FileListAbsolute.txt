@@ -1,0 +1,15 @@
+D:\Rico3d\WKTeste\WKVendas\WKVendas.Repositorio\bin\Debug\net6.0\WKVendas.Repositorio.deps.json
+D:\Rico3d\WKTeste\WKVendas\WKVendas.Repositorio\bin\Debug\net6.0\WKVendas.Repositorio.dll
+D:\Rico3d\WKTeste\WKVendas\WKVendas.Repositorio\bin\Debug\net6.0\WKVendas.Repositorio.pdb
+D:\Rico3d\WKTeste\WKVendas\WKVendas.Repositorio\bin\Debug\net6.0\WKVendas.Dominio.dll
+D:\Rico3d\WKTeste\WKVendas\WKVendas.Repositorio\bin\Debug\net6.0\WKVendas.Dominio.pdb
+D:\Rico3d\WKTeste\WKVendas\WKVendas.Repositorio\obj\Debug\net6.0\WKVendas.Repositorio.csproj.AssemblyReference.cache
+D:\Rico3d\WKTeste\WKVendas\WKVendas.Repositorio\obj\Debug\net6.0\WKVendas.Repositorio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Rico3d\WKTeste\WKVendas\WKVendas.Repositorio\obj\Debug\net6.0\WKVendas.Repositorio.AssemblyInfoInputs.cache
+D:\Rico3d\WKTeste\WKVendas\WKVendas.Repositorio\obj\Debug\net6.0\WKVendas.Repositorio.AssemblyInfo.cs
+D:\Rico3d\WKTeste\WKVendas\WKVendas.Repositorio\obj\Debug\net6.0\WKVendas.Repositorio.csproj.CoreCompileInputs.cache
+D:\Rico3d\WKTeste\WKVendas\WKVendas.Repositorio\obj\Debug\net6.0\WKVendas.Repositorio.csproj.CopyComplete
+D:\Rico3d\WKTeste\WKVendas\WKVendas.Repositorio\obj\Debug\net6.0\WKVendas.Repositorio.dll
+D:\Rico3d\WKTeste\WKVendas\WKVendas.Repositorio\obj\Debug\net6.0\refint\WKVendas.Repositorio.dll
+D:\Rico3d\WKTeste\WKVendas\WKVendas.Repositorio\obj\Debug\net6.0\WKVendas.Repositorio.pdb
+D:\Rico3d\WKTeste\WKVendas\WKVendas.Repositorio\obj\Debug\net6.0\ref\WKVendas.Repositorio.dll

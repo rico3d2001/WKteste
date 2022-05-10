@@ -1,0 +1,12 @@
+D:\Rico3d\WKTeste\WKVendas\WKVendas.Dominio\bin\Debug\net6.0\WKVendas.Dominio.deps.json
+D:\Rico3d\WKTeste\WKVendas\WKVendas.Dominio\bin\Debug\net6.0\WKVendas.Dominio.dll
+D:\Rico3d\WKTeste\WKVendas\WKVendas.Dominio\bin\Debug\net6.0\WKVendas.Dominio.pdb
+D:\Rico3d\WKTeste\WKVendas\WKVendas.Dominio\obj\Debug\net6.0\WKVendas.Dominio.csproj.AssemblyReference.cache
+D:\Rico3d\WKTeste\WKVendas\WKVendas.Dominio\obj\Debug\net6.0\WKVendas.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Rico3d\WKTeste\WKVendas\WKVendas.Dominio\obj\Debug\net6.0\WKVendas.Dominio.AssemblyInfoInputs.cache
+D:\Rico3d\WKTeste\WKVendas\WKVendas.Dominio\obj\Debug\net6.0\WKVendas.Dominio.AssemblyInfo.cs
+D:\Rico3d\WKTeste\WKVendas\WKVendas.Dominio\obj\Debug\net6.0\WKVendas.Dominio.csproj.CoreCompileInputs.cache
+D:\Rico3d\WKTeste\WKVendas\WKVendas.Dominio\obj\Debug\net6.0\WKVendas.Dominio.dll
+D:\Rico3d\WKTeste\WKVendas\WKVendas.Dominio\obj\Debug\net6.0\refint\WKVendas.Dominio.dll
+D:\Rico3d\WKTeste\WKVendas\WKVendas.Dominio\obj\Debug\net6.0\WKVendas.Dominio.pdb
+D:\Rico3d\WKTeste\WKVendas\WKVendas.Dominio\obj\Debug\net6.0\ref\WKVendas.Dominio.dll
