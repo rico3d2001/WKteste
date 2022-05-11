@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WKVendas.AppCategoria", "WK
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WKVendas.AppProduto", "WKVendas.AppProduto\WKVendas.AppProduto.csproj", "{AE3CCE01-094D-4C2E-B7C2-07B22E27ED64}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WKVendas.WebApiProduto", "WKVendas.WebApiProduto\WKVendas.WebApiProduto.csproj", "{EC74A5D6-ECAB-4379-A715-DBE6AD27674B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{AE3CCE01-094D-4C2E-B7C2-07B22E27ED64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE3CCE01-094D-4C2E-B7C2-07B22E27ED64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE3CCE01-094D-4C2E-B7C2-07B22E27ED64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC74A5D6-ECAB-4379-A715-DBE6AD27674B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC74A5D6-ECAB-4379-A715-DBE6AD27674B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC74A5D6-ECAB-4379-A715-DBE6AD27674B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC74A5D6-ECAB-4379-A715-DBE6AD27674B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
