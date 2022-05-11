@@ -123,4 +123,8 @@ D:\Rico3d\WKTeste\WKVendas\WKVendas.App.Testes\obj\Debug\net6.0\refint\WKVendas.
 D:\Rico3d\WKTeste\WKVendas\WKVendas.App.Testes\obj\Debug\net6.0\WKVendas.App.Testes.pdb
 D:\Rico3d\WKTeste\WKVendas\WKVendas.App.Testes\obj\Debug\net6.0\WKVendas.App.Testes.genruntimeconfig.cache
 D:\Rico3d\WKTeste\WKVendas\WKVendas.App.Testes\obj\Debug\net6.0\ref\WKVendas.App.Testes.dll
-D:\Rico3d\WKTeste\WKVendas\WKVendas.App.Testes\bin\Debug\net6.0\Dapper.Contrib.dll
+D:\Rico3d\WKTeste\WKVendas\WKVendas.App.Testes\bin\Debug\net6.0\Dapper.SimpleCRUD.dll
+D:\Rico3d\WKTeste\WKVendas\WKVendas.App.Testes\bin\Debug\net6.0\WKVendas.AppCategoria.dll
+D:\Rico3d\WKTeste\WKVendas\WKVendas.App.Testes\bin\Debug\net6.0\WKVendas.AppCategoria.pdb
+D:\Rico3d\WKTeste\WKVendas\WKVendas.App.Testes\bin\Debug\net6.0\WKVendas.AppProduto.dll
+D:\Rico3d\WKTeste\WKVendas\WKVendas.App.Testes\bin\Debug\net6.0\WKVendas.AppProduto.pdb

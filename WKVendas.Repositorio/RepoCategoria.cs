@@ -4,46 +4,24 @@ using WKVendas.Dominio;
 
 namespace WKVendas.Repositorio
 {
-    public class RepoCategoria
+    public class RepoCategoria : RepoBase
     {
-        private readonly string _strConection;
-        public RepoCategoria()
+       
+        public async Task<int> Inserir(Categoria categoria)
         {
-            _strConection = "Server=myServerAddress;Database=myDataBase;Uid=myUsername;Pwd=myPassword;";
-        }
+            int linhasAfetadas = 0;
 
-        public async Task<List<Categoria>> Get()
-        {
-            try
-            {
-                var categorias = new List<Categoria>();
-
-                using (var connection = new MySqlConnection(_strConection))
-                {
-                    categorias = (List<Categoria>)await connection.QueryAsync<List<Categoria>>("SELECT * FROM categoria");
-                }
-
-                return categorias;
-            }
-            catch (Exception)
-            {
-                throw;
-            }
-            
-        }
-
-        public async Task<Categoria> Post(Categoria categoria)
-        {
             try
             {
                 using (var connection = new MySqlConnection(_strConection))
                 {
                     string sqlQuery = "INSERT INTO `testewk`.`categoria` (`nome`,`descricao`,`foto`)"
                         + $"VALUES (@Nome,@Descricao,@Foto); ";
-                    connection.Execute(sqlQuery, categoria);
+                   linhasAfetadas =  await connection.ExecuteAsync(sqlQuery, categoria);
+
                 }
 
-                return categoria;
+                return linhasAfetadas;
             }
             catch (Exception)
             {
@@ -51,16 +29,88 @@ namespace WKVendas.Repositorio
             }
         }
 
-        public async Task<Categoria> Get(string id)
+        public async Task<List<Categoria>> Obter()
         {
-            Categoria categoria = null;
-
-            using (var connection = new MySqlConnection(_strConection))
+            try
             {
-                categoria = (Categoria)await connection.QueryAsync<List<Categoria>>($"SELECT * FROM categoria WHERE categoria.id={id}");
+                using (var connection = new MySqlConnection(_strConection))
+                {
+                   var lista = await connection.QueryAsync<Categoria>("SELECT * FROM testewk.categoria");  
+                    return lista.ToList(); 
+                }
+            }
+            catch (Exception)
+            {
+                throw;
             }
 
-            return categoria;
         }
+
+        public async Task<int> Apagar(Categoria categoria)
+        {
+
+            var categoriaToDel = Obter(categoria.Nome);
+            int linhasAfetadas = 0;
+
+            try
+            {
+                using (var connection = new MySqlConnection(_strConection))
+                {
+                    string sqlQuery = $"DELETE FROM `testewk`.`categoria` WHERE nome='{categoria.Nome}'; ";
+                    linhasAfetadas = await connection.ExecuteAsync(sqlQuery, categoriaToDel);
+                }
+
+                return linhasAfetadas;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        public async Task<int> Atualizar(string nome, Categoria categoria)
+        {
+            var categoriaToUpdate = Obter(nome);
+            int linhasAfetadas = 0;
+
+            try
+            {
+                using (var connection = new MySqlConnection(_strConection))
+                {
+                    string sqlQuery = $"UPDATE `testewk`.`categoria`"
+                                    + "SET"
+                                    + $"`nome` = '{ categoria.Nome }',"
+                                    + $"`descricao` = '{ categoria.Descricao }',"
+                                    + $"`foto` = '{ categoria.Foto }'"
+                                    + $"WHERE `nome` = '{ nome }'; ";
+                    linhasAfetadas = await connection.ExecuteAsync(sqlQuery, categoriaToUpdate);
+                }
+
+                return linhasAfetadas;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        private Categoria? Obter(string? nome)
+        {
+            try
+            {
+                using (var connection = new MySqlConnection(_strConection))
+                {
+                    var lista = connection
+                        .Query<Categoria>($"SELECT * FROM testewk.categoria WHERE nome='{nome}'");
+                    return lista.FirstOrDefault();
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+
+        }
+
     }
 }

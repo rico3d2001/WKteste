@@ -3,13 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WKVendas.Dominio", "WKVendas.Dominio\WKVendas.Dominio.csproj", "{E9963FBF-DBF6-48CA-A843-C0FCB555005E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WKVendas.Dominio", "WKVendas.Dominio\WKVendas.Dominio.csproj", "{E9963FBF-DBF6-48CA-A843-C0FCB555005E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WKVendas.Repositorio", "WKVendas.Repositorio\WKVendas.Repositorio.csproj", "{60190FC9-A009-4635-BF45-3BA263FF347F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WKVendas.Repositorio", "WKVendas.Repositorio\WKVendas.Repositorio.csproj", "{60190FC9-A009-4635-BF45-3BA263FF347F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WKVendas.App", "WKVendas.App\WKVendas.App.csproj", "{205A5A63-2959-4356-8F0F-98373CC2B07E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WKVendas.App", "WKVendas.App\WKVendas.App.csproj", "{205A5A63-2959-4356-8F0F-98373CC2B07E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WKVendas.App.Testes", "WKVendas.App.Testes\WKVendas.App.Testes.csproj", "{7BC018CD-535A-41A9-AA5D-F842AABC56B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WKVendas.App.Testes", "WKVendas.App.Testes\WKVendas.App.Testes.csproj", "{7BC018CD-535A-41A9-AA5D-F842AABC56B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WKVendas.Core", "WKVendas.Core\WKVendas.Core.csproj", "{BD64A046-3A34-49D3-BB40-7B0972945A31}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WKVendas.AppCategoria", "WKVendas.AppCategoria\WKVendas.AppCategoria.csproj", "{A2EED401-2205-47D1-8881-2B03EB71E2F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WKVendas.AppProduto", "WKVendas.AppProduto\WKVendas.AppProduto.csproj", "{AE3CCE01-094D-4C2E-B7C2-07B22E27ED64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +39,18 @@ Global
 		{7BC018CD-535A-41A9-AA5D-F842AABC56B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BC018CD-535A-41A9-AA5D-F842AABC56B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BC018CD-535A-41A9-AA5D-F842AABC56B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD64A046-3A34-49D3-BB40-7B0972945A31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD64A046-3A34-49D3-BB40-7B0972945A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD64A046-3A34-49D3-BB40-7B0972945A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD64A046-3A34-49D3-BB40-7B0972945A31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2EED401-2205-47D1-8881-2B03EB71E2F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2EED401-2205-47D1-8881-2B03EB71E2F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2EED401-2205-47D1-8881-2B03EB71E2F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2EED401-2205-47D1-8881-2B03EB71E2F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE3CCE01-094D-4C2E-B7C2-07B22E27ED64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE3CCE01-094D-4C2E-B7C2-07B22E27ED64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE3CCE01-094D-4C2E-B7C2-07B22E27ED64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE3CCE01-094D-4C2E-B7C2-07B22E27ED64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

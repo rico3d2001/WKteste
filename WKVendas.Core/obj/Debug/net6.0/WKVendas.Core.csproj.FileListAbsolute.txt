@@ -1,0 +1,12 @@
+D:\Rico3d\WKTeste\WKVendas\WKVendas.Core\bin\Debug\net6.0\WKVendas.Core.deps.json
+D:\Rico3d\WKTeste\WKVendas\WKVendas.Core\bin\Debug\net6.0\WKVendas.Core.dll
+D:\Rico3d\WKTeste\WKVendas\WKVendas.Core\bin\Debug\net6.0\WKVendas.Core.pdb
+D:\Rico3d\WKTeste\WKVendas\WKVendas.Core\obj\Debug\net6.0\WKVendas.Core.csproj.AssemblyReference.cache
+D:\Rico3d\WKTeste\WKVendas\WKVendas.Core\obj\Debug\net6.0\WKVendas.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Rico3d\WKTeste\WKVendas\WKVendas.Core\obj\Debug\net6.0\WKVendas.Core.AssemblyInfoInputs.cache
+D:\Rico3d\WKTeste\WKVendas\WKVendas.Core\obj\Debug\net6.0\WKVendas.Core.AssemblyInfo.cs
+D:\Rico3d\WKTeste\WKVendas\WKVendas.Core\obj\Debug\net6.0\WKVendas.Core.csproj.CoreCompileInputs.cache
+D:\Rico3d\WKTeste\WKVendas\WKVendas.Core\obj\Debug\net6.0\WKVendas.Core.dll
+D:\Rico3d\WKTeste\WKVendas\WKVendas.Core\obj\Debug\net6.0\refint\WKVendas.Core.dll
+D:\Rico3d\WKTeste\WKVendas\WKVendas.Core\obj\Debug\net6.0\WKVendas.Core.pdb
+D:\Rico3d\WKTeste\WKVendas\WKVendas.Core\obj\Debug\net6.0\ref\WKVendas.Core.dll

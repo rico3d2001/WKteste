@@ -6,16 +6,10 @@ using System.Threading.Tasks;
 
 namespace WKVendas.Dominio
 {
-    public class Categoria
+    public class Categoria : BaseEntity
     {
-        public Categoria(string nome)
-        {
-            Nome = nome;
-        }
-
-        public int Id { get; set; }
         public string Nome { get; set; }
-        public string Descricao { get; set; }
-        public string Foto { get; set; }
+        public string? Descricao { get; set; }
+        public string? Foto { get; set; }
     }
 }

@@ -8,13 +8,6 @@ namespace WKVendas.Dominio
 {
     public class Produto
     {
-        public Produto(string guid, string nome, int idCategoria)
-        {
-            Guid = guid;
-            Nome = nome;
-            IdCategoria = idCategoria;
-        }
-
         public int Id { get; set; }
         public string Guid { get; set; }
         public string Nome { get; set; }

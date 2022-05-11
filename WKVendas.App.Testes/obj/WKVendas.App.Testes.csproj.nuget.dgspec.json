@@ -32,6 +32,12 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "D:\\Rico3d\\WKTeste\\WKVendas\\WKVendas.AppCategoria\\WKVendas.AppCategoria.csproj": {
+                "projectPath": "D:\\Rico3d\\WKTeste\\WKVendas\\WKVendas.AppCategoria\\WKVendas.AppCategoria.csproj"
+              },
+              "D:\\Rico3d\\WKTeste\\WKVendas\\WKVendas.AppProduto\\WKVendas.AppProduto.csproj": {
+                "projectPath": "D:\\Rico3d\\WKTeste\\WKVendas\\WKVendas.AppProduto\\WKVendas.AppProduto.csproj"
+              },
               "D:\\Rico3d\\WKTeste\\WKVendas\\WKVendas.App\\WKVendas.App.csproj": {
                 "projectPath": "D:\\Rico3d\\WKTeste\\WKVendas\\WKVendas.App\\WKVendas.App.csproj"
               }
@@ -80,7 +86,140 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Rico3d\\WKTeste\\WKVendas\\WKVendas.AppCategoria\\WKVendas.AppCategoria.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Rico3d\\WKTeste\\WKVendas\\WKVendas.AppCategoria\\WKVendas.AppCategoria.csproj",
+        "projectName": "WKVendas.AppCategoria",
+        "projectPath": "D:\\Rico3d\\WKTeste\\WKVendas\\WKVendas.AppCategoria\\WKVendas.AppCategoria.csproj",
+        "packagesPath": "C:\\Users\\rico3\\.nuget\\packages\\",
+        "outputPath": "D:\\Rico3d\\WKTeste\\WKVendas\\WKVendas.AppCategoria\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rico3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Rico3d\\WKTeste\\WKVendas\\WKVendas.App\\WKVendas.App.csproj": {
+                "projectPath": "D:\\Rico3d\\WKTeste\\WKVendas\\WKVendas.App\\WKVendas.App.csproj"
+              },
+              "D:\\Rico3d\\WKTeste\\WKVendas\\WKVendas.Dominio\\WKVendas.Dominio.csproj": {
+                "projectPath": "D:\\Rico3d\\WKTeste\\WKVendas\\WKVendas.Dominio\\WKVendas.Dominio.csproj"
+              },
+              "D:\\Rico3d\\WKTeste\\WKVendas\\WKVendas.Repositorio\\WKVendas.Repositorio.csproj": {
+                "projectPath": "D:\\Rico3d\\WKTeste\\WKVendas\\WKVendas.Repositorio\\WKVendas.Repositorio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Rico3d\\WKTeste\\WKVendas\\WKVendas.AppProduto\\WKVendas.AppProduto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Rico3d\\WKTeste\\WKVendas\\WKVendas.AppProduto\\WKVendas.AppProduto.csproj",
+        "projectName": "WKVendas.AppProduto",
+        "projectPath": "D:\\Rico3d\\WKTeste\\WKVendas\\WKVendas.AppProduto\\WKVendas.AppProduto.csproj",
+        "packagesPath": "C:\\Users\\rico3\\.nuget\\packages\\",
+        "outputPath": "D:\\Rico3d\\WKTeste\\WKVendas\\WKVendas.AppProduto\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rico3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Rico3d\\WKTeste\\WKVendas\\WKVendas.App\\WKVendas.App.csproj": {
+                "projectPath": "D:\\Rico3d\\WKTeste\\WKVendas\\WKVendas.App\\WKVendas.App.csproj"
+              },
+              "D:\\Rico3d\\WKTeste\\WKVendas\\WKVendas.Dominio\\WKVendas.Dominio.csproj": {
+                "projectPath": "D:\\Rico3d\\WKTeste\\WKVendas\\WKVendas.Dominio\\WKVendas.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -145,7 +284,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -203,7 +342,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -255,9 +394,9 @@
               "target": "Package",
               "version": "[2.0.123, )"
             },
-            "Dapper.Contrib": {
+            "Dapper.SimpleCRUD": {
               "target": "Package",
-              "version": "[2.0.78, )"
+              "version": "[2.3.0, )"
             },
             "MySql.Data": {
               "target": "Package",
@@ -279,7 +418,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -31,14 +31,15 @@
           }
         }
       },
-      "Dapper.Contrib/2.0.78": {
+      "Dapper.SimpleCRUD/2.3.0": {
         "dependencies": {
-          "Dapper": "2.0.123"
+          "Dapper": "2.0.123",
+          "Microsoft.CSharp": "4.4.0"
         },
         "runtime": {
-          "lib/net5.0/Dapper.Contrib.dll": {
-            "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.0.78.45418"
+          "lib/netstandard2.0/Dapper.SimpleCRUD.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
           }
         }
       },
@@ -84,6 +85,7 @@
           }
         }
       },
+      "Microsoft.CSharp/4.4.0": {},
       "Microsoft.NETCore.Platforms/3.1.0": {},
       "Microsoft.Win32.SystemEvents/4.7.0": {
         "dependencies": {
@@ -237,7 +239,7 @@
       "WKVendas.Repositorio/1.0.0": {
         "dependencies": {
           "Dapper": "2.0.123",
-          "Dapper.Contrib": "2.0.78",
+          "Dapper.SimpleCRUD": "2.3.0",
           "MySql.Data": "8.0.29",
           "WKVendas.Dominio": "1.0.0"
         },
@@ -267,12 +269,12 @@
       "path": "dapper/2.0.123",
       "hashPath": "dapper.2.0.123.nupkg.sha512"
     },
-    "Dapper.Contrib/2.0.78": {
+    "Dapper.SimpleCRUD/2.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-sUfDVIf8LlHNiz3MfUFodeyRiemfN1JFkPxYjCxFWlwNPg1iQ49mB+0E89TkywWs4X8fiRWOVDQgtH5FtzK5Kw==",
-      "path": "dapper.contrib/2.0.78",
-      "hashPath": "dapper.contrib.2.0.78.nupkg.sha512"
+      "sha512": "sha512-9wj9b3IYADmNea3hwlkS0qKRCcbTYcJ4uYCdZdE9O34nTvl0mJv1Hy6sSFA5t/UN8zKscWiDFWT8B+4tOnoQvA==",
+      "path": "dapper.simplecrud/2.3.0",
+      "hashPath": "dapper.simplecrud.2.3.0.nupkg.sha512"
     },
     "Google.Protobuf/3.19.4": {
       "type": "package",
@@ -301,6 +303,13 @@
       "sha512": "sha512-jCfNP0inx1sGcP3KSbpiDEH3km2e1sVBjMfKo+V92jr1dL4ZYgA1uhRMl1wAtdGZcbObXIikKqtVlgx3j/CW6g==",
       "path": "k4os.hash.xxhash/1.0.6",
       "hashPath": "k4os.hash.xxhash.1.0.6.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vvVR/B08YVghQ4jHEloxqw2ZWzEGE1AOA5E0DioUM3ujbXz6FD3AfB/0Jl2ohJPd0nXYGwmPe1En6HTsSriq1A==",
+      "path": "microsoft.csharp/4.4.0",
+      "hashPath": "microsoft.csharp.4.4.0.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/3.1.0": {
       "type": "package",

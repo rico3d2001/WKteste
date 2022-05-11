@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "nnV1mAT6es5z0ZOFJ4W7M1OoIVSIRWRFWmaNKnXZsMcGwl3Il4qSI5//LssTS6Fr62MYgvHSssuZBUSoV+9j4w==",
+  "success": true,
+  "projectFilePath": "D:\\Rico3d\\WKTeste\\WKVendas\\WKVendas.Core\\WKVendas.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rico3\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512"
+  ],
+  "logs": []
+}

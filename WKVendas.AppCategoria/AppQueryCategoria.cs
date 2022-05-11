@@ -1,26 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using WKVendas.App;
 using WKVendas.Dominio;
 using WKVendas.Repositorio;
 
-namespace WKVendas.App
+namespace WKVendas.AppCategoria
 {
-    public class AppMudancaCategorias
+    public class AppQueryCategoria
     {
         private readonly RepoCategoria _repoCategoria;
-        public AppMudancaCategorias()
+        public AppQueryCategoria()
         {
             _repoCategoria = new RepoCategoria();
         }
 
-        public async Task<ResultadoQuery> PostCategoria(Categoria categoria)
+        public async Task<ResultadoQuery> Obter()
         {
             try
             {
-                var resultado = await _repoCategoria.Post(categoria);
+                var resultado = await _repoCategoria.Obter();
                 return new ResultadoQuery(resultado, new List<string>(), 200);
             }
             catch (Exception e)
